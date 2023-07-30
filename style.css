@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+padding: 0;    
+}
+body{
+    background-color: #EEE;
+    font-family: 'Playfair', serif;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #efdbf7;
+    padding: 20px;
+}
+header{
+
+}
+
+.profile_image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius:  50%;
+    float: left;
+
+}
+
+.header_bio{
+    float: left;
+    padding: 30px;
+}
+
+h1, h2,h3,h4,h5,h6{
+    color:#b438e4 ;
+}
+
+.header-contact{
+    float: right;
+padding: 30px;
+}
+.header-contact a{
+text-decoration: none;
+color: rgb(140, 0, 255);
+font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+/*----------------------
+perdonal  section
+*/
+
+#personal_section{
+
+}
+
+.content{
+    margin-bottom: 30px;
+
+}
+
+
+.left_div{
+width: 30%; 
+float: left;
+}
+
+.right_div{
+width: 70%;
+float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.edu_templete_left{
+
+    float: left;
+    width: 45%;
+}
+
+.edu_templete_right{
+    float: right;
+    width: 45%;
+}
+/*-------
+Footer
+----------------*/
+
+.bottom_container{
+    background-color: black;
+    text-align: center;
+  
+    padding: 10px;
+}
+
+.bottom_container a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+
+
+}
+.bottom_container p{
+   
+    color: #fff;
+    margin-top: 20px;
+    
+
+}
